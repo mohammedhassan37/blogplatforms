@@ -1,0 +1,55 @@
+
+.hero-sections{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    height: 50vh;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    /* border: 1px solid black; */
+}
+
+.article-section,.img-section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+      /* border: 1px solid black; */
+}
+
+.article-section{
+    display: block; 
+    height: 90%;
+    margin-top: 2%;
+}
+
+.article-information,.article-tags{
+    display: flex;
+}
+
+#featured-story{
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 13px;
+    background: rgb(240, 240, 240);
+    width: 13%;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+#article-title{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.img-section{
+}
+
+.img-section img{
+    border-radius: 7px;
+    margin-top: 2.7%;
+    width: 100%;
+    height: 90%;
+    background: black;
+}
+
+
