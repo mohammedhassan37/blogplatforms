@@ -38,14 +38,12 @@
 
 #article-title{
     font-size: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 
 
-.article-information,.article-tags{
-    gap: 20px;
-}
+
 
 .article-tags p{
     font-weight: bold;
@@ -55,7 +53,13 @@
     border-radius: 7px;
 }
 
-.img-section{
+.article-information,.article-tags{
+    gap: 20px;
+}
+
+.text-color{
+    color: grey;
+    margin-bottom: 12.5px;
 }
 
 .img-section img{
@@ -67,7 +71,3 @@
 }
 
 
-.text-color{
-    color: grey;
-    margin-bottom: 10px;
-}
