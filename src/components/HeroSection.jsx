@@ -4,8 +4,6 @@ import '../styles/HeroSection.css'
 function HeroSection(){
 return(
     <>
-       
-
        <div className="hero-sections">
             <div className="article-section">
                 <p id='featured-story'>Featured story</p>
