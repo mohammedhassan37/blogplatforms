@@ -13,7 +13,7 @@ return(
                 <span className='article-tags'> <p>AI</p> <p>Machine Learning</p> <p>Technology</p> </span>
             </div>
             <div className="img-section">
-               <img src="src\assets\react.svg" alt="" />
+               <img src="src\images\farts.svg" alt="" />
             </div>
        </div>
     </>

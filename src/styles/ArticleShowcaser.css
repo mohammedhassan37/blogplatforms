@@ -1,0 +1,98 @@
+.ArticleDisplayer{
+   display: flex;
+   flex-direction: column;   
+   align-items: center;   
+   width: 55vw;
+   height: 163vh;
+   margin-left: 10vw;
+   margin-top: 5vh;
+   border: 1px solid pink;
+}
+/* flex-direction column: stack children vertically */
+.articleTop{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;           
+   height: 2.25vh;          
+             
+}
+/* Make it same line */
+/* space between */
+/* align items vertically? */
+/* height specified, not parents */
+/* width specified, of parents (gives proper spacing then)*/
+
+ 
+#articleTitle{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#articleView{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#articleView:hover{
+    text-decoration: underline;
+}
+
+.articlesShowcase{
+   margin-top: 2rem;         
+   width: 100%;             
+}
+
+.placcard{   
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 1.5rem;               
+}
+
+.articleCard { 
+    border: 1px solid black; 
+    width: 25vw; 
+    height: 47.5vh;
+    border-radius: 10px; 
+    overflow: hidden; /* keeps img inside rounded corners */
+}
+
+
+.articleCard img {
+    width: 100%;
+    height: 23vh;
+    display: block;
+}
+/* image fills the top of the card */
+#showcaseTag{
+    margin-bottom: 25px;
+    font-size: 13px;
+    background: rgb(228, 228, 228);
+    width: 4vw;
+    padding: 4px;
+    border-radius: 7px;
+    margin-top: 35px;
+}
+
+.articleCard .content {
+    padding: 10.5px;
+}
+/* wraps text content in a div for padding */
+
+
+
+#showcaseTitle,#showcaseDesc{
+    margin-bottom: 15px;
+}
+
+.showAuthor {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.showAuthorRight {
+  display: flex;
+  gap: 10px;
+}
