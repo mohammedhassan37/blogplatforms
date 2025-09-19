@@ -23,13 +23,14 @@ const articles = [
   {
     id: 1,
     image: farts,
-    title: "title 1",
+    title: "Cloud Infrastructure at Scale: AWS vs Azure vs Google Cloud",
     tags: "Technology",
-    desc: "desc",
+    desc: "A comprehensive comparison of the three major cloud providers, their services, pricing, and which one might be right for your next project.",
     author: "Mohammed Hassan",
     readDur: 5,
     todayDate: formattedDate,
-    postedDate: daysAgo("3/09/2025")
+    postedDate: daysAgo("3/09/2025"),
+    articleLink: "", //if pressed it should take me to the full page article.
   },
   {
     id: 2,

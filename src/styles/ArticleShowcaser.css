@@ -66,13 +66,13 @@
 }
 /* image fills the top of the card */
 #showcaseTag{
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     font-size: 13px;
     background: rgb(228, 228, 228);
     width: 4vw;
     padding: 4px;
     border-radius: 7px;
-    margin-top: 35px;
+    margin-top: 10px;
 }
 
 .articleCard .content {
@@ -83,7 +83,9 @@
 
 
 #showcaseTitle,#showcaseDesc{
-    margin-bottom: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-size: 16px;
 }
 
 .showAuthor {
