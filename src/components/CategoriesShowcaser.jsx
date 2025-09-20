@@ -9,7 +9,8 @@ function CategoriesShowcaser() {
   return (
     <>
       <div className="catSCon ">
-        <p className="catHead">Categories</p>
+        {/* useless comment  */}
+        <p className="catHead">Categories</p> 
         <ul>
           <li>
             <span>
