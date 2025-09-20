@@ -14,8 +14,8 @@ function daysAgo(dateString) {
   const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
 
   if (diffDays === 0) return "Today";
-  if (diffDays === 1) return "1 day ago";
-  return `${diffDays} days ago`;
+  if (diffDays === 1) return "1 Day ago";
+  return `${diffDays} Days ago`;
 }
 
 const articles = [
@@ -34,24 +34,24 @@ const articles = [
   {
     id: 2,
     image: farts,
-    title: "title 2",
+    title: "Iphone 17 has been released, but is there any benefits?",
     tags: ["Technology"],
     desc: "desc",
     author: "Mohammed Hassan",
     readDur: 5,
     todayDate: formattedDate,
-    postedDate: ""
+    postedDate: daysAgo("10/9/2025")
   },
   {
     id: 3,
     image: farts,
-    title: "title 3",
+    title: "Samsung is shilling for israel?",
     tags: ["Technology"],
     desc: "desc",
     author: "Mohammed Hassan",
     readDur: 5,
     todayDate: formattedDate,
-    postedDate: ""
+    postedDate: daysAgo("14/09/2025")
   },
   {
     id: 4,
