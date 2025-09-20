@@ -1,5 +1,6 @@
 import "../styles/CategoriesShowcaser.css";
-import { countCategories } from "../data/CategoriesData.js"; // imports function to count
+import { countCategories } from "../Data/CategoriesData.js";
+// imports function to count
 
 function CategoriesShowcaser() {
   const { ai, mobile, websiteDev, gaming, cloud, tech } = countCategories();
@@ -10,7 +11,7 @@ function CategoriesShowcaser() {
     <>
       <div className="catSCon ">
         {/* useless comment  */}
-        <p className="catHead">Categories</p> 
+        <p className="catHead">Categories</p>
         <ul>
           <li>
             <span>

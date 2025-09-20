@@ -11,7 +11,7 @@ function ArticleShowcaser() {
             View All
           </a>
         </span>
-        
+
         <div className="articlesShowcase">
           <div className="placcard">
             {articles.map((article) => (
@@ -34,9 +34,7 @@ function ArticleShowcaser() {
               </div>
             ))}
           </div>
-          
         </div>
-          
       </div>
     </>
   );
