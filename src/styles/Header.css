@@ -11,6 +11,11 @@
 }
 
 .header-container{
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
     border: 1px solid rgb(236, 234, 234);
     height: 6.5vh;
 }
@@ -43,7 +48,7 @@
     width: 10.5vw;
     height: 3.2vh;
     left: 80%;
-    top: 1.75%;
+    top: 27%;
     padding-left: 15px;
     border: none;
     border-radius: 4px;

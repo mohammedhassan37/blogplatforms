@@ -1,6 +1,7 @@
 import Header from './components/Header.jsx'
 import HeroSection from './components/HeroSection.jsx'
 import ArticleShowcaser from './components/ArticleShowcaser.jsx'
+import CategoriesShowcaser from './components/CategoriesShowcaser.jsx'
 
 function App() {
  
@@ -10,6 +11,7 @@ function App() {
       <Header></Header>
       <HeroSection></HeroSection>
       <ArticleShowcaser></ArticleShowcaser>
+      <CategoriesShowcaser></CategoriesShowcaser>
     </>
   )
 }

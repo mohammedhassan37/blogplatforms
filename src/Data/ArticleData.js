@@ -1,14 +1,14 @@
-import farts from '../images/Blackflag.svg';
+import cloud from "../images/160252.jpg";
+import farts from "../images/Blackflag.svg";
 
 const today = new Date();
-const formattedDate = today.toLocaleDateString("en-GB"); // "dd/mm/yyyy"
+const formattedDate = today.toLocaleDateString("en-GB"); 
 
-// Helper function to calculate days ago
 function daysAgo(dateString) {
-  if (!dateString) return ""; // if no postedDate
+  if (!dateString) return ""; 
 
-  const parts = dateString.split("/"); // ["dd","mm","yyyy"]
-  const postDate = new Date(`${parts[2]}-${parts[1]}-${parts[0]}`); // yyyy-mm-dd
+  const parts = dateString.split("/"); 
+  const postDate = new Date(`${parts[2]}-${parts[1]}-${parts[0]}`); 
 
   const diffTime = today - postDate;
   const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
@@ -18,36 +18,35 @@ function daysAgo(dateString) {
   return `${diffDays} days ago`;
 }
 
-// List of articles
 const articles = [
   {
     id: 1,
-    image: farts,
+    image: cloud,
     title: "Cloud Infrastructure at Scale: AWS vs Azure vs Google Cloud",
-    tags: "Technology",
+    tags: ["Cloud"],   
     desc: "A comprehensive comparison of the three major cloud providers, their services, pricing, and which one might be right for your next project.",
     author: "Mohammed Hassan",
     readDur: 5,
     todayDate: formattedDate,
     postedDate: daysAgo("3/09/2025"),
-    articleLink: "", //if pressed it should take me to the full page article.
+    articleLink: "",
   },
   {
     id: 2,
     image: farts,
     title: "title 2",
-    tags: "Technology",
+    tags: ["Technology"],
     desc: "desc",
     author: "Mohammed Hassan",
     readDur: 5,
     todayDate: formattedDate,
-    postedDate: "" // no date yet
+    postedDate: ""
   },
   {
     id: 3,
     image: farts,
     title: "title 3",
-    tags: "Technology",
+    tags: ["Technology"],
     desc: "desc",
     author: "Mohammed Hassan",
     readDur: 5,
@@ -58,7 +57,7 @@ const articles = [
     id: 4,
     image: farts,
     title: "title 4",
-    tags: "Technology",
+    tags: ["AI"],
     desc: "desc",
     author: "Mohammed Hassan",
     readDur: 5,
@@ -69,7 +68,7 @@ const articles = [
     id: 5,
     image: farts,
     title: "title 5",
-    tags: "Technology",
+    tags: ["AI"],
     desc: "desc",
     author: "Mohammed Hassan",
     readDur: 5,
@@ -80,7 +79,7 @@ const articles = [
     id: 6,
     image: farts,
     title: "title 6",
-    tags: "Technology",
+    tags: ["Technology"],
     desc: "desc",
     author: "Mohammed Hassan",
     readDur: 5,

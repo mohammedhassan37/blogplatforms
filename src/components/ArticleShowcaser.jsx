@@ -1,5 +1,5 @@
 import "../styles/ArticleShowcaser.css";
-import articles from "../data/data.js";
+import articles from "../Data/ArticleData.js";
 
 function ArticleShowcaser() {
   return (
@@ -11,6 +11,7 @@ function ArticleShowcaser() {
             View All
           </a>
         </span>
+        
         <div className="articlesShowcase">
           <div className="placcard">
             {articles.map((article) => (
@@ -33,7 +34,9 @@ function ArticleShowcaser() {
               </div>
             ))}
           </div>
+          
         </div>
+          
       </div>
     </>
   );
