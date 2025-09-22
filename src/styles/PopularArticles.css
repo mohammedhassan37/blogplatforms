@@ -1,19 +1,27 @@
 .PopArt{
     border: 1px solid rgb(193, 193, 193);
-    width: 24vw;
+    margin-top: 2%;
+    margin-left: 66%;
+    width: 22.5vw ;
     height: 33vh;
     padding-left: 10px;
     border-radius: 10px;
+    padding: 20px; 
 }
 
+
+
 #PopArtTitle{
-    font-size: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+    
 }
 
 #PopArtDur{
-
+    padding-top: 10px;
 }
 
 #PopArtPost{
-
+    padding: 10px;
+    border-bottom: 1px solid rgb(190, 190, 190);
 }

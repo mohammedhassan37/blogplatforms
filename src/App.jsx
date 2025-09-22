@@ -9,10 +9,10 @@ function App() {
 
   return (
     <>
-      {/* <Header></Header>
+       <Header></Header>
       <HeroSection></HeroSection>
       <ArticleShowcaser></ArticleShowcaser>
-      <CategoriesShowcaser></CategoriesShowcaser> */}
+      <CategoriesShowcaser></CategoriesShowcaser>
       <PoularArticls></PoularArticls>
     </>
   )
