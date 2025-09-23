@@ -70,13 +70,12 @@
 }
 /* image fills the top of the card */
 #showcaseTag{
-    margin-bottom: 10px;
-    font-size: 13px;
-    background: rgb(228, 228, 228);
-    width: 4vw;
+    font-weight: bold;
+    width: fit-content;
+    font-size: 11px;
+    border: 1px solid rgb(216, 215, 215);
     padding: 4px;
     border-radius: 7px;
-    margin-top: 10px;
 }
 
 .articleCard .content {
