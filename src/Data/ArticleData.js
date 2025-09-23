@@ -15,7 +15,7 @@ function daysAgo(dateString) {
 
   if (diffDays === 0) return "Today";
   if (diffDays === 1) return "1 Day ago";
-  return `${diffDays}  Days ago`;
+  return `${diffDays}  days ago`;
 }
 
 const articles = [

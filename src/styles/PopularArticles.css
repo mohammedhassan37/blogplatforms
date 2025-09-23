@@ -9,19 +9,35 @@
     padding: 20px; 
 }
 
-
+.PopArtTitle{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
 
 #PopArtTitle{
-    padding-top: 10px;
-    font-size: 14px;
-    
+    padding-top: 15px;
+    font-size: 16px;
 }
 
 #PopArtDur{
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 #PopArtPost{
-    padding: 10px;
-    border-bottom: 1px solid rgb(190, 190, 190);
+    padding-top: 15px;
+}
+
+.PopInfo{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.PopInfo p{
+    font-size: 13px;
+}
+
+.PopArt a{
+    text-decoration: none;
+    color: black;
 }

@@ -5,13 +5,14 @@ function PopularArticles() {
   return (
     <>
     <div className="PopArt">
-      <p>Popular This week</p>
+      <p className="PopArtTitle">Popular This week</p>
       {articles.slice(0,3).map((article) =>
             <div>
-              <h1 id="PopArtTitle">{article.title}</h1>
-              <p id="PopArtDur">{article.readDur} Min read</p>
+              <a href=""><h1 id="PopArtTitle">{article.title}</h1></a>
+             <span className="PopInfo"> <p id="PopArtDur">{article.readDur} min read</p>
               <p id="PopArtPost">{article.postedDate}</p>
-
+              </span>
+              <hr />
             </div>
     )}
     </div>
