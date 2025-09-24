@@ -72,6 +72,7 @@
 #showcaseTag{
     font-weight: bold;
     width: fit-content;
+    margin-top: 10px;
     font-size: 11px;
     border: 1px solid rgb(216, 215, 215);
     padding: 4px;
