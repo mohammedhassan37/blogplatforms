@@ -76,6 +76,7 @@
     border: 1px solid rgb(216, 215, 215);
     padding: 4px;
     border-radius: 7px;
+    
 }
 
 .articleCard .content {
@@ -84,8 +85,14 @@
 /* wraps text content in a div for padding */
 
 
+#showcaseTitle{
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
 
-#showcaseTitle,#showcaseDesc{
+
+#showcaseDesc{
     font-weight: normal;
     margin-bottom: 10px;
     font-size: 16px;
