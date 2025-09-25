@@ -4,7 +4,7 @@ import HeroSection from './components/HeroSection.jsx';
 import ArticleShowcaser from './components/ArticleShowcaser.jsx';
 import CategoriesShowcaser from './components/CategoriesShowcaser.jsx';
 import PoularArticls from './components/PopularArticles.jsx';
-import Meow from './Pages/Meow.jsx';
+import AI from './Pages/AI.jsx';
 import './index.css';
 
 function App() {
@@ -26,8 +26,8 @@ function App() {
           }
         />
 
-        {/* Meow Page */}
-        <Route path="/meow" element={<Meow />} />
+        {/* AI Page */}
+        <Route path="/AI" element={<AI />} />
       </Routes>
     </>
   );
