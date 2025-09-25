@@ -6,6 +6,7 @@ import CategoriesShowcaser from './components/CategoriesShowcaser.jsx';
 import PoularArticls from './components/PopularArticles.jsx';
 import AI from './Pages/AI.jsx';
 import './index.css';
+import Technology from './Pages/Technology.jsx'
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         />
 
         {/* AI Page */}
+        <Route path="/AI" element={<AI />} />
+        <Route path="/Technology" element={<Technology />} />
         <Route path="/AI" element={<AI />} />
       </Routes>
     </>
