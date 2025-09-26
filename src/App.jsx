@@ -7,6 +7,7 @@ import PoularArticls from './components/PopularArticles.jsx';
 import AI from './Pages/AI.jsx';
 import './index.css';
 import Technology from './Pages/Technology.jsx'
+import TrendingTags from "./components/TrendingTags.jsx";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               <ArticleShowcaser />
               <CategoriesShowcaser />
               <PoularArticls />
+              <TrendingTags></TrendingTags>
             </>
           }
         />

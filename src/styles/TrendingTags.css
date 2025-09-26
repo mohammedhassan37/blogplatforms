@@ -1,0 +1,35 @@
+.TTcontainer {
+    border: 1px solid rgb(193, 193, 193);
+    margin-top: 2%;
+    margin-left: 66%;
+    width: 22.5vw;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#TTCtitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.TTelements {
+    display: flex;
+    flex-wrap: wrap;     
+    gap: 10px;
+}
+
+.TTCtags {
+    border: 1px solid rgb(216, 215, 215);
+    padding: 5px 10px;
+    border-radius: 7px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.TTCtags:hover {
+    background-color: black;
+    color: white;
+}
