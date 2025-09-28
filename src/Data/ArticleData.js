@@ -33,7 +33,7 @@ const articles = [
   },
   {
     id: 2,
-    image: farts,
+    image: cloud,
     title: "Iphone 17 has been released, but is there any benefits?",
     tags: ["Technology"],
     desc: "desc",
@@ -44,7 +44,7 @@ const articles = [
   },
   {
     id: 3,
-    image: farts,
+    image: cloud,
     title: "Samsung is shilling for israel?",
     tags: ["Technology"],
     desc: "desc",
@@ -55,7 +55,7 @@ const articles = [
   },
   {
     id: 4,
-    image: farts,
+    image: cloud,
     title: "title 4",
     tags: ["AI"],
     desc: "desc",
@@ -66,7 +66,7 @@ const articles = [
   },
   {
     id: 5,
-    image: farts,
+    image: cloud,
     title: "title 5",
     tags: ["AI"],
     desc: "desc",
@@ -77,7 +77,7 @@ const articles = [
   },
   {
     id: 6,
-    image: farts,
+    image: cloud,
     title: "title 6",
     tags: ["Technology"],
     desc: "desc",

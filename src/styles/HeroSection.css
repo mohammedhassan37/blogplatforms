@@ -5,7 +5,7 @@
     width: 80vw;
     height: 50vh;
     margin-left: 10vw;
-    margin-top: 5vh;
+    margin-top: 8vh;
     /* border: 1px solid black; */
 }
 
@@ -27,13 +27,15 @@
 }
 
 #featured-story{
-    font-weight: bold;
-    margin-bottom: 25px;
-    font-size: 13px;
-    background: rgb(240, 240, 240);
-    width: 13%;
-    padding: 4px;
+    border: 1px solid rgb(216, 215, 215);
+    padding: 5px 10px;
+    margin-bottom: 13px;
+    width: fit-content;
     border-radius: 7px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 #article-title{
