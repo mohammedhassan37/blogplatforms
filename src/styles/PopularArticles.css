@@ -3,19 +3,18 @@
     margin-top: 2%;
     margin-left: 66%;
     width: 22.5vw ;
-    height: 33vh;
     padding-left: 10px;
     border-radius: 10px;
     padding: 20px; 
 }
 
 .PopArtTitle{
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 5px;
 }
 
 #PopArtTitle{
-    padding-top: 15px;
+    padding-top: 10px;
     font-size: 14px;
 }
 

@@ -8,6 +8,7 @@ import AI from './Pages/AI.jsx';
 import './index.css';
 import Technology from './Pages/Technology.jsx'
 import TrendingTags from "./components/TrendingTags.jsx";
+import CategoriesNavigation from './components/CategoriesNavigation.jsx'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           element={
             <>
               <HeroSection />
+              <CategoriesNavigation></CategoriesNavigation>
               <ArticleShowcaser />
               <CategoriesShowcaser />
               <PoularArticls />
