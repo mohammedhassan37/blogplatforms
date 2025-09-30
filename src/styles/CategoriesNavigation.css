@@ -1,27 +1,114 @@
+/* === Category Navigation Container === */
 .CatNavCon{
     width: 80vw;
     margin-left: 10vw;
     margin-top: 8vh;
     border: 1px solid rgb(224, 224, 224); 
+    border-radius: 10px;
 }
+/* === Category Navigation Container === */
 
+/* === Category Navigation List & Text === */
 .CatNavBtns ul{
     gap:10px;
-    padding:15px;
+    padding:20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-.CatNavBtns li{
-    list-style: none;
+#CatNavText,#CatNavHead{
+    padding-left: 20px;
+    padding-top:20px;
 }
 
-#CatNavText,#CatNavHead{
-    padding-left: 15px;
-    padding-top:15px;
-   
+#CatNavHead{
+    font-size: 23px;
+}
+
+#CatNavText{
+    color:grey
+}
+/* === Category Navigation List & Text=== */
+
+/* === Category Navigation Links === */
+.CatNavBtns li{
+    list-style: none;
+    border-radius: 7px;
+    width:18vw;
+    padding:10px;
+    text-align: center;
 }
 
 .CatNavBtns a{
     text-decoration: none;
+    font-weight: 600;
 }
+/* === Category Navigation Links === */
+
+/* === Category Navigation Backgrounds === */
+#CatNavAI {
+  background: #eff6ff;
+}
+
+#CatNavMobile {
+  background: #f0fdf4;
+}
+
+#CatNavWebDev {
+  background: #faf5ff;
+}
+
+#CatNavBlockChain {
+  background: #fff7ed;
+}
+
+#CatNavGaming {
+  background: #fdf2f8;
+}
+
+#CatNavTech {
+  background: #eef2ff;
+}
+
+#CatNavReviews {
+  background: #fdf2f8;
+}
+
+#CatNavContact {
+  background: #f0fdfa;
+}
+/* === Category Navigation Backgrounds === */
+
+/* === Category Navigation Links === */
+#CatNavAI a {
+  color: #1d4ed8;
+}
+
+#CatNavMobile a {
+  color: #15803d;
+}
+
+#CatNavWebDev a {
+  color: #7c3aed;
+}
+
+#CatNavBlockChain a {
+  color: #c2410c;
+}
+
+#CatNavGaming a {
+  color: #c73a6d;
+}
+
+#CatNavTech a {
+  color: #4338ca;
+}
+
+#CatNavReviews a {
+  color: #c73a6d;
+}
+
+#CatNavContact a {
+  color: #0f766e;
+}
+/* === Category Navigation Links === */
