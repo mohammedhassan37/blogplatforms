@@ -5,8 +5,8 @@ function CategoriesNavigation(){
 return(
     <>
         <div className="CatNavCon">
-            <h1>🚀 Explore all pages</h1>
-            <p>Click on any of these buttons to see the different pages I've created for the BlogPost platform:</p>
+            <h1 id="CatNavHead">🚀 Explore all pages</h1>
+            <p id="CatNavText">Click on any of these buttons to see the different pages I've created for the BlogPost platform:</p>
                 <div className="CatNavBtns">
                     <ul>
                         <li>
@@ -17,6 +17,9 @@ return(
                         </li>
                         <li>
                             <Link to="/AI">💻 Web Dev</Link>
+                        </li>
+                        <li>
+                            <Link to="/AI">⛓️ Blockchain</Link>
                         </li>
                         <li>
                             <Link to="/AI">🕹️ Gaming</Link>

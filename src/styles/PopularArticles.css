@@ -1,5 +1,5 @@
 .PopArt{
-    border: 1px solid rgb(193, 193, 193);
+    border: 1px solid rgb(224, 224, 224); 
     margin-top: 2%;
     margin-left: 66%;
     width: 22.5vw ;
@@ -39,4 +39,8 @@
 .PopArt a{
     text-decoration: none;
     color: black;
+}
+
+hr{
+    border: 1px solid rgb(224, 224, 224); 
 }
