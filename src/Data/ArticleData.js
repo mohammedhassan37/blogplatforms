@@ -45,7 +45,7 @@ const articles = [
   {
     id: 3,
     image: cloud,
-    title: "Samsung is shilling for israel?",
+    title: "Samsung",
     tags: ["Technology"],
     desc: "desc",
     author: "Mohammed Hassan",

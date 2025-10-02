@@ -2,16 +2,16 @@ import "../styles/TrendingTags.css";
 
 function TrendingTags() {
   const tags = [
-    "react",
-    "farts",
-    "apple",
-    "meow",
-    "fent",
-    "farts",
-    "mama",
-    "meow",
-    "farts",
-    "poops",
+    "Tag1",
+    "Tag2",
+    "Tag1",
+    "Tag2",
+    "Tag1",
+    "Tag2",
+    "Tag1",
+    "Tag2",
+    "Tag1",
+    "Tag2",
   ];
 
   return (
