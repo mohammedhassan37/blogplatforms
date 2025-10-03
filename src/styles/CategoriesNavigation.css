@@ -1,47 +1,49 @@
 /* === Category Navigation Container === */
 .CatNavCon{
-    width: 80vw;
-    margin-left: 10vw;
-    margin-top: 8vh;
-    border: 1px solid rgb(224, 224, 224); 
-    border-radius: 10px;
+
+  width: 90%;
+  max-width: 1550px;
+  margin: 8vh auto 0 auto;
+  border: 1px solid rgb(224, 224, 224); 
+  border-radius: 10px;
 }
 /* === Category Navigation Container === */
 
 /* === Category Navigation List & Text === */
 .CatNavBtns ul{
-    gap:10px;
-    padding:20px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  gap:10px;
+  padding:20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 #CatNavText,#CatNavHead{
-    padding-left: 20px;
-    padding-top:20px;
+  padding-left: 20px;
+  padding-top:20px;
 }
 
 #CatNavHead{
-    font-size: 23px;
+  font-size: 23px;
 }
 
 #CatNavText{
-    color:grey
+  color:grey
 }
 /* === Category Navigation List & Text=== */
 
 /* === Category Navigation Links === */
 .CatNavBtns li{
-    list-style: none;
-    border-radius: 7px;
-    width:18vw;
-    padding:10px;
-    text-align: center;
+  list-style: none;
+  border-radius: 7px;
+  width:100%;
+  padding:6px;
+  text-align: center;
 }
 
 .CatNavBtns a{
-    text-decoration: none;
-    font-weight: 600;
+  text-decoration: none;
+  font-weight: 600;
+  display:flex;
 }
 /* === Category Navigation Links === */
 
@@ -112,3 +114,33 @@
   color: #0f766e;
 }
 /* === Category Navigation Links === */
+
+@media (max-width: 768px) {
+  .CatNavBtns ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #CatNavHead {
+    font-size: 20px;
+  }
+
+  #CatNavText {
+    font-size: 14px;
+  }
+}
+
+/* 📱 Small Mobile: stack 1 per row */
+@media (max-width: 480px) {
+  .CatNavBtns ul {
+    grid-template-columns: 1fr;
+  }
+
+  .CatNavCon {
+    width: 90vw;
+    margin-left: 5vw;
+  }
+
+  #CatNavHead {
+    font-size: 18px;
+  }
+}
