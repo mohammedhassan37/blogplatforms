@@ -1,5 +1,5 @@
 import '../styles/HeroSection.css'
-
+import pic from '../images/160252.jpg';
 
 function HeroSection(){
 return(
@@ -13,7 +13,7 @@ return(
                 <span className='article-tags'> <p>AI</p> <p>Machine Learning</p> <p>Technology</p> </span>
             </div>
             <div className="img-section">
-               <img src="src\images\160252.jpg" alt="" />
+               <img src={pic} alt="" />
             </div>
        </div>
     </>
