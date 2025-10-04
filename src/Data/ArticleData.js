@@ -25,7 +25,7 @@ const articles = [
     title: "Cloud Infrastructure at Scale: AWS vs Azure vs Google Cloud",
     tags: ["Cloud"],   
     desc: "A comprehensive comparison of the three major cloud providers, their services, pricing, and which one might be right for your next project.",
-    author: "Mohammed Hassan",
+    author: "Anon",
     readDur: 5,
     todayDate: formattedDate,
     postedDate: daysAgo("3/09/2025"),
@@ -37,7 +37,7 @@ const articles = [
     title: "Iphone 17 has been released, but is there any benefits?",
     tags: ["Technology"],
     desc: "desc",
-    author: "Mohammed Hassan",
+    author: "Anon",
     readDur: 5,
     todayDate: formattedDate,
     postedDate: daysAgo("10/9/2025")
@@ -48,7 +48,7 @@ const articles = [
     title: "Samsung",
     tags: ["Technology"],
     desc: "desc",
-    author: "Mohammed Hassan",
+    author: "Anon",
     readDur: 5,
     todayDate: formattedDate,
     postedDate: daysAgo("14/09/2025")
@@ -59,7 +59,7 @@ const articles = [
     title: "title 4",
     tags: ["AI"],
     desc: "desc",
-    author: "Mohammed Hassan",
+    author: "Anon",
     readDur: 5,
     todayDate: formattedDate,
     postedDate: ""
@@ -70,7 +70,7 @@ const articles = [
     title: "title 5",
     tags: ["AI"],
     desc: "desc",
-    author: "Mohammed Hassan",
+    author: "Anon",
     readDur: 5,
     todayDate: formattedDate,
     postedDate: ""
@@ -81,7 +81,7 @@ const articles = [
     title: "title 6",
     tags: ["Technology"],
     desc: "desc",
-    author: "Mohammed Hassan",
+    author: "Anon",
     readDur: 5,
     todayDate: formattedDate,
     postedDate: ""
