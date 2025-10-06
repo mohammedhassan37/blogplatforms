@@ -1,0 +1,15 @@
+
+
+.TrendingContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8vh auto 8vh auto;
+    border: 1px solid black;
+    gap: 1rem;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.e1{
+ 
+}

@@ -2,13 +2,11 @@ import { Routes, Route } from "react-router-dom";
 import Header from './components/Header.jsx';
 import HeroSection from './components/HeroSection.jsx';
 import ArticleShowcaser from './components/ArticleShowcaser.jsx';
-import CategoriesShowcaser from './components/CategoriesShowcaser.jsx';
-import PoularArticls from './components/PopularArticles.jsx';
 import AI from './Pages/AI.jsx';
 import './index.css';
 import Technology from './Pages/Technology.jsx'
-import TrendingTags from "./components/TrendingTags.jsx";
 import CategoriesNavigation from './components/CategoriesNavigation.jsx'
+import Trending from "./components/Trending.jsx";
 
 function App() {
   return (
@@ -22,11 +20,9 @@ function App() {
           element={
             <>
               <HeroSection />
-              <CategoriesNavigation></CategoriesNavigation>
+              <CategoriesNavigation/>
+              <Trending/>
               <ArticleShowcaser />
-              <CategoriesShowcaser />
-              <PoularArticls />
-              <TrendingTags></TrendingTags>
             </>
           }
         />

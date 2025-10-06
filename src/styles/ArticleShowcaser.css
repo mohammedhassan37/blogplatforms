@@ -2,11 +2,11 @@
    display: flex;
    flex-direction: column;   
    align-items: center;   
-   width: 55vw;
-   height: 163vh;
-   margin-left: 10vw;
+   width: 90%;
+
+   margin-left: 5vw;
    margin-top: 5vh;
-   
+   border: 1px solid rgb(135, 11, 11);
 }
 /* flex-direction column: stack children vertically */
 .articleTop{
@@ -50,15 +50,17 @@
 
 .placcard{   
     display: grid;
-    grid-template-columns: repeat(2, 0fr);
-    gap: 1.5rem;               
+    grid-template-columns: repeat(3, 0fr);
+    gap: 1.5rem;    
+    border: 1px solid black;
 }
 
 .articleCard { 
     border: 1px solid rgb(224, 224, 224); 
-    width: 25vw; 
-    height: 47.5vh;
+    width: 27vw; 
+    height: auto;
     border-radius: 10px; 
+    margin: 0 auto 0 2vh;
     overflow: hidden; /* keeps img inside rounded corners */
 }
 
@@ -112,4 +114,77 @@
 .showAuthorRight {
   display: flex;
   gap: 10px;
+}
+
+
+/* 📱 Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+  .placcard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .articleCard {
+    flex: 1 1 calc(50% - 1rem); /* 2 per row on tablet */
+    box-sizing: border-box;
+    height: auto; /* let height adjust to content */
+  }
+
+  #articleTitle {
+    font-size: 20px;
+  }
+
+  #articleView {
+    font-size: 14px;
+  }
+
+  #showcaseTitle {
+    font-size: 14px;
+  }
+
+  #showcaseDesc {
+    font-size: 14px;
+  }
+
+  #showcaseTag {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+}
+
+/* 📱 Small Mobile (max-width: 480px): stack vertically */
+@media (max-width: 480px) {
+  .placcard {
+    display: flex;
+    flex-wrap: wrap;           
+    gap: 1rem;                  
+  }
+
+  .articleCard {
+    flex: 1 1 100%;  
+    box-sizing: border-box;
+  }
+
+  #articleTitle {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #articleView {
+    font-size: 13px;
+  }
+
+  #showcaseTitle {
+    font-size: 13px;
+  }
+
+  #showcaseDesc {
+    font-size: 13px;
+  }
+
+  #showcaseTag {
+    font-size: 9px;
+    padding: 3px 7px;
+  }
 }
