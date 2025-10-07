@@ -10,7 +10,7 @@ function Header() {
         <li><Link to="/Mobile">Mobile</Link></li>
         <li><Link to="/Web-dev">Web Dev</Link></li>
         <li><Link to="/Gaming">Gaming</Link></li>
-        <li><Link to="/Technology">Technology</Link></li>
+        <li><Link to="Reviews">Reviews</Link></li>
       </ul>
       <input type="text" className='input-search' placeholder='Search articles...' />
     </div>
