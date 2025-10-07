@@ -7,8 +7,7 @@ export function countCategories() {
     mobile: 0,
     websiteDev: 0,
     gaming: 0,
-    tech: 0,
-    cloud: 0,
+    reviews: 0
   };
 
   ArticleData.forEach((article) => {
@@ -26,11 +25,8 @@ export function countCategories() {
         case "Gaming":
           counts.gaming++;
           break;
-        case "Technology":
-          counts.tech++;
-          break;
-        case "Cloud":
-          counts.cloud++;
+        case "Reviews":
+          counts.reviews++;
           break;
         default:
           break;

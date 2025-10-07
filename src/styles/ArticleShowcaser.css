@@ -8,11 +8,11 @@
 }
 /* flex-direction column: stack children vertically */
 .articleTop{
-   display: flex; 
-   gap: 70%;
-   width: 100%;           
-   height: 2.25vh;          
-             
+   display: flex;   
+   justify-content: space-between;
+   align-items: center;
+   width: 93%;           
+   margin-bottom: 2.5vh;
 }
 /* Make it same line */
 /* space between */
@@ -24,6 +24,7 @@
 #articleTitle{
     font-weight: bold;
     font-size: 23px;
+    margin: 0;
 }
 
 #articleView{
@@ -38,7 +39,7 @@
 
 .articlesShowcase{
    margin-top: 2rem;         
-   width: 100%;             
+   width: 100%;          
 }
 
 .placcard{   
@@ -46,7 +47,8 @@
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(3, 0fr);
-    gap: 1.5rem;    
+    gap: 1.5rem;   
+     
 }
 
 .articleCard { 
