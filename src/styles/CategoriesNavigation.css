@@ -1,12 +1,11 @@
 /* === Main Container === */
 .CatNavMain {
-  min-height: 85vh;
   background: linear-gradient(to bottom right, #f9fafb, #ffffff, #eff6ff);
   display: flex;
   align-items: center;
   flex-direction: column;
   padding:1.5vh;
-
+  padding-bottom: 6vh;
 }
 /* === Main Container === */
 

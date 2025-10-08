@@ -19,6 +19,13 @@ function Trending() {
 
   return (
     <>
+     <div className="farts">
+        <h3>Discover & Explore</h3>
+        <h1>Your Tech Knowledge Hub</h1>
+        <p>
+          Stay ahead with curated content, trending topics, and the latest industry insights
+        </p>
+      </div>
       <div className="TrendingContainer">
         <div className="CatMainContainer Categories">
           <p>
