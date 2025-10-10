@@ -10,7 +10,7 @@ import ArticleShowcaser from './components/ArticleShowcaser.jsx';
 
 import AI from './Pages/AI.jsx';
 import Gaming from "./Pages/Gaming.jsx";
-import WebDev from "./Pages/WebDev.jsx";
+import Web from "./Pages/Web.jsx";
 import Contact from "./Pages/Contact.jsx";
 import Mobile from "./Pages/Mobile.jsx";
 import Reviews from "./Pages/Reviews.jsx";
@@ -39,7 +39,7 @@ function App() {
         <Route path="/Reviews" element={<Reviews />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Gaming" element={<Gaming />} />
-        <Route path="/WebDev" element={<WebDev />} />
+        <Route path="/Web" element={<Web />} />
         <Route path="/Mobile" element={<Mobile />} />
       </Routes>
     </>

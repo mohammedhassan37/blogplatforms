@@ -1,13 +1,5 @@
+import ArticleListByTag from "../components/ArticleByTags";
 
-
-
-function Mobile(){
-return(
-    <>
-        <h1>hello</h1>
-    </>
-)
+export default function Mobile(){
+    return <ArticleListByTag tag="Mobile"></ArticleListByTag>
 }
-
-
-export default Mobile;

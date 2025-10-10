@@ -1,26 +1,7 @@
+import ArticleListByTag from "../components/ArticleByTags"
 
 
 
-function Gaming(){
-return(
-    <>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1>
-        v<h1>hello</h1>
-
-        <h1>hello</h1>
-        <h1>hello</h1>
-        <h1>hello</h1><h1>hello</h1>
-
-        <h1>hello</h1>
-        <h1>hello</h1>v
-        <h1>hello</h1>
-        
-    </>
-)
+export default function Gaming(){
+    return <ArticleListByTag tag="Gaming"></ArticleListByTag>
 }
-
-
-export default Gaming;
