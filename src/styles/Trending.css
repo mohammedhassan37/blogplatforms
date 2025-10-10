@@ -70,7 +70,18 @@
 .PopTW{
     margin: 0 auto;
     background: #eefdf4;
-    
+    font-size:13px;
+    font-weight: bold;
+}
+
+.PopInfo{
+    font-weight:normal;
+}
+
+.PopArticle:hover{
+    border-radius: 10px;
+    background:#e4ffef;
+    padding:2px
 }
 
 #PopTWIcon{
