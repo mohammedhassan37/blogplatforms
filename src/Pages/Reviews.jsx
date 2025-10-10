@@ -1,18 +1,6 @@
+import ArticlesByTags from '../components/ArticleByTags.jsx'
 
 
-function Reviews() {
-  return (
-    <>
-      <p>hello</p>
-      <p>hello</p>
-      <p>hello</p>
-      <p>hello</p>
-      <p>hello</p>
-      <p>hello</p>
-      <p>hello</p>
-      <p>hello</p>
-    </>
-  );
+export default function Rewviews(){
+  return <ArticlesByTags tag="Reviews"/>
 }
-
-export default Reviews;

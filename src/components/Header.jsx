@@ -8,7 +8,7 @@ function Header() {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/AI">AI & ML</Link></li>
         <li><Link to="/Mobile">Mobile</Link></li>
-        <li><Link to="/Web-dev">Web Dev</Link></li>
+        <li><Link to="/Web">Web Dev</Link></li>
         <li><Link to="/Gaming">Gaming</Link></li>
         <li><Link to="Reviews">Reviews</Link></li>
       </ul>
