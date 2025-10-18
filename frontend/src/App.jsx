@@ -15,10 +15,12 @@ import Contact from "./Pages/Contact.jsx";
 import Mobile from "./Pages/Mobile.jsx";
 import Reviews from "./Pages/Reviews.jsx";
 
+import Test from './Pages/Test.jsx'
+
 function App() {
   return (
     <>
-      <Header />
+     
 
       <Routes>
         {/* Home Page */}
@@ -34,13 +36,14 @@ function App() {
           }
         />
 
-        {/* AI Page */}
+        
         <Route path="/AI" element={<AI />} />
         <Route path="/Reviews" element={<Reviews />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Gaming" element={<Gaming />} />
         <Route path="/Web" element={<Web />} />
         <Route path="/Mobile" element={<Mobile />} />
+         <Route path="/Test" element={<Test />} />
       </Routes>
     </>
   );
