@@ -1,9 +1,10 @@
 import "../styles/Trending.css";
 import { countCategories } from "../Data/CategoriesData.js";
 import articles from "../Data/ArticleData.js";
+import {Link} from 'react-router-dom'
 
 function Trending() {
-  const { ai, mobile, websiteDev, gaming, reviews } = countCategories();
+  const { ai, mobile, web, gaming, reviews } = countCategories();
   const tags = [
     "React",
     "TypeScript",
@@ -32,21 +33,31 @@ function Trending() {
             <span id="CategoriesIcon">☰</span> Categories
           </p>
           <ul>
-            <li>
+            <Link to="/AI">
+              <li>
               Artificial Intelligence <span id="span">{ai}</span>
-            </li>
-            <li>
+             </li>
+            </Link>
+            <Link to="/Mobile">
+              <li>
               Mobile Development <span>{mobile}</span>
             </li>
-            <li>
-              Website Development <span>{websiteDev}</span>
+            </Link>
+            <Link to="/web">
+              <li>
+              Website Development <span>{web}</span>
             </li>
-            <li>
+            </Link>
+            <Link to="Gaming">
+              <li>
               Gaming <span>{gaming}</span>
             </li>
-            <li>
+            </Link>
+            <Link to="Reviews">
+              <li>
               Reviews <span>{reviews}</span>
             </li>
+            </Link>
           </ul>
         </div>
         <div className="CatMainContainer PopTW">

@@ -25,7 +25,7 @@ function CategoriesNavigation() {
           <p>iOS, Android, and cross-platform solutions</p>
         </Link>
 
-        <Link to="/WebDev" className="CatCards card-web">
+        <Link to="/Web" className="CatCards card-web">
           <div className="icon">💻</div>
           <h2>Web Development</h2>
           <p>Frontend, backend, and full-stack guides</p>

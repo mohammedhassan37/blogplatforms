@@ -1,11 +1,11 @@
 // utils/countCategories.js
-import ArticleData from "../Data/ArticleData.js";
+import ArticleData from "./ArticleData.js";
 
 export function countCategories() {
   const counts = {
     ai: 0,
     mobile: 0,
-    websiteDev: 0,
+    web: 0,
     gaming: 0,
     reviews: 0
   };
@@ -19,8 +19,8 @@ export function countCategories() {
         case "Mobile":
           counts.mobile++;
           break;
-        case "Web dev":
-          counts.websiteDev++;
+        case "Web":
+          counts.web++;
           break;
         case "Gaming":
           counts.gaming++;
