@@ -20,7 +20,7 @@ import Test from './Pages/Test.jsx'
 function App() {
   return (
     <>
-     
+     <Header/>
 
       <Routes>
         {/* Home Page */}
